@@ -1,0 +1,26 @@
+
+#include<stdio.h>
+int main()
+{
+  char c;
+  printf("Enter the character ");
+  scanf("%c",&c);
+  printf("The ASCII code for the character u have entered is %d",c);
+ if(65<=c && c<=90)
+ {
+    printf("The character u have entered is capital letter");
+ }
+ else if (97<=c && c<=122)
+  {
+    printf("The character u have entered is small letter") ;
+ }
+ else if (48<=c && c<=57)
+  {
+    printf("The character u have entered is digit ") ;
+ }
+ else
+  {
+    printf("The character u have entered is special symbol") ;
+ }
+    return 0;
+}
